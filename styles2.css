@@ -1,0 +1,124 @@
+/* Food Bank Section */
+#food-bank {
+  padding: 2rem;
+}
+
+#food-filter {
+  margin-bottom: 1rem;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.food-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.food-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-card-content {
+  padding: 1rem;
+}
+
+.food-card-content h3 {
+  margin-top: 0;
+}
+
+.food-card-content p {
+  margin-bottom: 1rem;
+}
+
+.food-card-content button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.food-card-content button:hover {
+  background-color: #005fa3;
+}
+/* Cart Section */
+#cart {
+  padding: 2rem;
+}
+
+#cart-items-container {
+  margin-bottom: 1rem;
+}
+
+#proceed-to-checkout {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#proceed-to-checkout:hover {
+  background-color: #005fa3;
+}
+/* Checkout Form Section */
+#checkout-form {
+  padding: 2rem;
+}
+
+#checkout-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#checkout-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+#checkout-form button[type="submit"] {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#checkout-form button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+/* Confirmation Section */
+#confirmation {
+  padding: 2rem;
+  text-align: center;
+}
+
+.confirmation-card {
+  background-color: #4b8beb;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.confirmation-card li {
+  list-style-type: none;
+}

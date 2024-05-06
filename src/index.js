@@ -56,9 +56,6 @@ function handleCheckIn(event) {
   const studentId = document.getElementById("studentId").value;
   // const password = document.getElementById("password").value;
 
-  // Authenticates the student and fetch attendance records
-  const isAuthenticated = authenticateStudent(studentId);
-
   if (isAuthenticated) {
     // Hides the check-in form section
     document.getElementById("check-in").style.display = "none";
